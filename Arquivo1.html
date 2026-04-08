@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fortnite — Battle Royale</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">FORTNITE</a>
+      <div class="nav-center" id="navMenu">
+        <a href="#inicio" class="nav-link">Início</a>
+        <a href="#novidades" class="nav-link">Novidades</a>
+        <a href="#modos" class="nav-link">Modos</a>
+        <a href="#armas" class="nav-link">Armas</a>
+        <a href="#galeria" class="nav-link">Galeria</a>
+        <a href="#contato" class="nav-link">Contato</a>
+      </div>
+      <a href="https://www.fortnite.com/download" target="_blank" class="nav-dl">Baixar Grátis</a>
+      <button class="burger" id="burger" aria-label="Menu"><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="inicio" class="hero">
+    <div class="hero-bg">
+      <img src="img/hero.jpg" alt="Fortnite">
+    </div>
+    <div class="hero-grad"></div>
+    <div class="hero-body">
+      <span class="hero-chip">FREE-TO-PLAY</span>
+      <h1 class="hero-h1">FORTNITE</h1>
+      <p class="hero-p" id="typed"></p>
+      <div class="hero-actions">
+        <a href="https://www.fortnite.com/download" target="_blank" class="btn-p">Baixar Grátis</a>
+        <a href="#modos" class="btn-s">Explorar ↓</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- NOVIDADES -->
+  <section id="novidades" class="section">
+    <div class="wrap">
+      <div class="sec-top">
+        <h2 class="sec-h2">Em destaque</h2>
+      </div>
+      <div class="feat-grid">
+        <a class="fc fc--big anim" href="https://www.fortnite.com" target="_blank">
+          <div class="fc-bg"><img src="img/destaque1.jpg" alt=""></div>
+          <div class="fc-over"></div>
+          <div class="fc-body">
+            <span class="fc-tag">TEMPORADA ATUAL</span>
+            <h3>Ranked Reloaded</h3>
+            <p>O competitivo de Fortnite renovado com novas mecânicas.</p>
+          </div>
+        </a>
+        <a class="fc anim" href="https://www.fortnite.com" target="_blank">
+          <div class="fc-bg"><img src="img/destaque2.jpg" alt=""></div>
+          <div class="fc-over"></div>
+          <div class="fc-body">
+            <span class="fc-tag">EVENTO</span>
+            <h3>Myths & Mortals</h3>
+            <p>Deuses da mitologia chegam à ilha.</p>
+          </div>
+        </a>
+        <a class="fc anim" href="https://www.fortnite.com" target="_blank">
+          <div class="fc-bg"><img src="img/destaque3.jpg" alt=""></div>
+          <div class="fc-over"></div>
+          <div class="fc-body">
+            <span class="fc-tag">NOVO MODO</span>
+            <h3>LEGO Fortnite</h3>
+            <p>Construa, explore e sobreviva em um mundo LEGO.</p>
+          </div>
+        </a>
+        <a class="fc anim" href="https://www.fortnite.com" target="_blank">
+          <div class="fc-bg"><img src="img/destaque4.jpg" alt=""></div>
+          <div class="fc-over"></div>
+          <div class="fc-body">
+            <span class="fc-tag">MÚSICA</span>
+            <h3>Fortnite Festival</h3>
+            <p>Toque suas músicas favoritas com amigos.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="split">
+    <div class="split-img anim">
+      <img src="img/sobre.jpg" alt="Fortnite">
+    </div>
+    <div class="split-text anim">
+      <span class="sec-chip">SOBRE O JOGO</span>
+      <h2>O Battle Royale que mudou tudo</h2>
+      <p>100 jogadores saltam em uma ilha, coletam armas e constroem estruturas em tempo real. O último de pé vence. Simples assim — e viciante assim.</p>
+      <p>Disponível gratuitamente em PC, PlayStation, Xbox, Nintendo Switch e dispositivos móveis. Com crossplay total entre todas as plataformas.</p>
+      <div class="split-stats">
+        <div><strong>400M+</strong><span>Jogadores</span></div>
+        <div><strong>80M+</strong><span>Ativos / mês</span></div>
+        <div><strong>30+</strong><span>Temporadas</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MODOS -->
+  <section id="modos" class="section">
+    <div class="wrap">
+      <div class="sec-top"><h2 class="sec-h2">Modos de jogo</h2></div>
+    </div>
+    <div class="carousel" id="carousel">
+      <div class="carousel-track">
+        <div class="card anim">
+          <div class="card-img"><img src="img/modo1.jpg" alt="Battle Royale"></div>
+          <div class="card-body">
+            <span class="card-tag">CLÁSSICO</span>
+            <h3>Battle Royale</h3>
+            <p>100 jogadores, 1 vencedor. O modo principal e mais icônico de Fortnite.</p>
+          </div>
+        </div>
+        <div class="card anim">
+          <div class="card-img"><img src="img/modo2.jpg" alt="Criativo"></div>
+          <div class="card-body">
+            <span class="card-tag">CRIATIVIDADE</span>
+            <h3>Criativo</h3>
+            <p>Crie seus próprios mundos e minigames sem limites de imaginação.</p>
+          </div>
+        </div>
+        <div class="card anim">
+          <div class="card-img"><img src="img/modo3.jpg" alt="LEGO Fortnite"></div>
+          <div class="card-body">
+            <span class="card-tag">SOBREVIVÊNCIA</span>
+            <h3>LEGO Fortnite</h3>
+            <p>Explore, colete e construa em um mundo de tijolos coloridos.</p>
+          </div>
+        </div>
+        <div class="card anim">
+          <div class="card-img"><img src="img/modo4.jpg" alt="Rocket Racing"></div>
+          <div class="card-body">
+            <span class="card-tag">CORRIDA</span>
+            <h3>Rocket Racing</h3>
+            <p>Corridas frenéticas com acrobacias e boosters.</p>
+          </div>
+        </div>
+        <div class="card anim">
+          <div class="card-img"><img src="img/modo5.jpg" alt="Festival"></div>
+          <div class="card-body">
+            <span class="card-tag">MÚSICA</span>
+            <h3>Festival</h3>
+            <p>Toque junto com seus amigos as maiores músicas do momento.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ARMAS -->
+  <section id="armas" class="section section--dark">
+    <div class="wrap">
+      <div class="sec-top"><h2 class="sec-h2">Raridade das armas</h2></div>
+      <div class="rarity-list">
+        <div class="rarity anim" style="--c:#929292"><div class="r-dot"></div><div class="r-info"><strong>Comum</strong><span>Básicas, encontradas em todo lugar</span></div><div class="r-bar-bg"><div class="r-bar" data-w="18"></div></div></div>
+        <div class="rarity anim" style="--c:#36d63a"><div class="r-dot"></div><div class="r-info"><strong>Incomum</strong><span>Leve melhoria, fácil de encontrar</span></div><div class="r-bar-bg"><div class="r-bar" data-w="32"></div></div></div>
+        <div class="rarity anim" style="--c:#3e9fff"><div class="r-dot"></div><div class="r-info"><strong>Rara</strong><span>Bom equilíbrio entre poder e acesso</span></div><div class="r-bar-bg"><div class="r-bar" data-w="52"></div></div></div>
+        <div class="rarity anim" style="--c:#b94dff"><div class="r-dot"></div><div class="r-info"><strong>Épica</strong><span>Alta potência, difícil de encontrar</span></div><div class="r-bar-bg"><div class="r-bar" data-w="72"></div></div></div>
+        <div class="rarity anim" style="--c:#f5a623"><div class="r-dot"></div><div class="r-info"><strong>Lendária</strong><span>Extremamente rara e poderosa</span></div><div class="r-bar-bg"><div class="r-bar" data-w="88"></div></div></div>
+        <div class="rarity anim" style="--c:#ff3366"><div class="r-dot"></div><div class="r-info"><strong>Mítica</strong><span>Única no mapa, poderes devastadores</span></div><div class="r-bar-bg"><div class="r-bar" data-w="100"></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERIA -->
+  <section id="galeria" class="section">
+    <div class="wrap">
+      <div class="sec-top"><h2 class="sec-h2">Galeria</h2></div>
+      <div class="gal-grid">
+        <div class="gal gal--big anim" onclick="openLB(this)"><img src="img/gal1.jpg" alt="Fortnite"></div>
+        <div class="gal anim" onclick="openLB(this)"><img src="img/gal2.jpg" alt="Fortnite"></div>
+        <div class="gal anim" onclick="openLB(this)"><img src="img/gal3.jpg" alt="Fortnite"></div>
+        <div class="gal anim" onclick="openLB(this)"><img src="img/gal4.jpg" alt="Fortnite"></div>
+        <div class="gal anim" onclick="openLB(this)"><img src="img/gal5.jpg" alt="Fortnite"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-banner">
+    <div class="cta-bg"><img src="img/cta.jpg" alt=""></div>
+    <div class="cta-fade"></div>
+    <div class="cta-body anim">
+      <h2>Pronto para a batalha?</h2>
+      <p>Fortnite é gratuito e disponível em todas as plataformas.</p>
+      <a href="https://www.fortnite.com/download" target="_blank" class="btn-p btn-lg">Baixar Grátis</a>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="section section--dark">
+    <div class="wrap">
+      <div class="sec-top"><h2 class="sec-h2">Contato</h2></div>
+      <form class="contact-form anim" id="contactForm">
+        <input type="hidden" name="title" value="Nova mensagem do site Fortnite">
+        <div class="form-row">
+          <div class="field"><label>Nome</label><input type="text" name="name" placeholder="Seu nome" required></div>
+          <div class="field"><label>E-mail</label><input type="email" name="email" placeholder="seu@email.com" required></div>
+        </div>
+        <div class="field"><label>Mensagem</label><textarea name="message" rows="5" placeholder="Escreva sua mensagem..." required></textarea></div>
+        <button type="submit" class="btn-p" id="submitBtn">Enviar mensagem</button>
+        <p class="form-msg" id="formMsg"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="wrap footer-grid">
+      <div>
+        <span class="f-logo">FORTNITE</span>
+        <p class="f-copy">© 2026 — Site criado para fins educacionais.<br>Fortnite é marca registrada da Epic Games.</p>
+      </div>
+      <div class="f-col"><strong>Jogo</strong><a href="#">Battle Royale</a><a href="#">Criativo</a><a href="#">LEGO Fortnite</a><a href="#">Rocket Racing</a></div>
+      <div class="f-col"><strong>Comunidade</strong><a href="#">Twitter / X</a><a href="#">YouTube</a><a href="#">Discord</a><a href="#">Instagram</a></div>
+      <div class="f-col"><strong>Suporte</strong><a href="#">Central de Ajuda</a><a href="#">Status do Servidor</a><a href="#">Relatar Bug</a></div>
+    </div>
+    <div class="wrap f-bottom">
+      <span>Termos de Serviço</span><span>Política de Privacidade</span><span>Português (BR)</span>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div class="lb" id="lb" onclick="closeLB()">
+    <img id="lbImg" alt="">
+    <span class="lb-x">&times;</span>
+  </div>
+
+  <!-- BACK TO TOP -->
+  <button class="btt" id="btt" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+  <script>
+    // ===== EMAILJS =====
+    emailjs.init('LldqvLzd0PDEomrIc');
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const btn = document.getElementById('submitBtn');
+      const msg = document.getElementById('formMsg');
+      btn.textContent = 'Enviando...';
+      btn.disabled = true;
+      emailjs.sendForm('service_6lfgvq8', 'template_u06zuk9', this)
+        .then(function() {
+          msg.textContent = '✅ Mensagem enviada com sucesso!';
+          msg.className = 'form-msg visible success';
+          btn.textContent = 'Enviar mensagem';
+          btn.disabled = false;
+          document.getElementById('contactForm').reset();
+          setTimeout(() => msg.className = 'form-msg', 4000);
+        }, function(error) {
+          msg.textContent = '❌ Erro: ' + (error.text || 'Tente novamente.');
+          msg.className = 'form-msg visible error';
+          btn.textContent = 'Enviar mensagem';
+          btn.disabled = false;
+          setTimeout(() => msg.className = 'form-msg', 4000);
+        });
+    });
+
+    // ===== TYPED =====
+    const phrases=['Construa. Lute. Sobreviva.','100 jogadores. 1 vencedor.','O Battle Royale mais jogado do mundo.'];
+    let pi=0,ci=0,del=false;const te=document.getElementById('typed');
+    function typeLoop(){const w=phrases[pi];if(!del){te.textContent=w.substring(0,ci+1);ci++;if(ci===w.length){del=true;setTimeout(typeLoop,2200);return}}else{te.textContent=w.substring(0,ci-1);ci--;if(ci===0){del=false;pi=(pi+1)%phrases.length}}setTimeout(typeLoop,del?25:55)}typeLoop();
+
+    // ===== SCROLL ANIM =====
+    const obs=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('show');obs.unobserve(x.target)}}),{threshold:.12});
+    document.querySelectorAll('.anim').forEach(el=>obs.observe(el));
+
+    // ===== RARITY BARS =====
+    const bObs=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){x.target.style.width=x.target.dataset.w+'%';bObs.unobserve(x.target)}}),{threshold:.3});
+    document.querySelectorAll('.r-bar').forEach(b=>bObs.observe(b));
+
+    // ===== NAV =====
+    window.addEventListener('scroll',()=>{
+      document.getElementById('nav').classList.toggle('nav--solid',scrollY>40);
+      document.getElementById('btt').classList.toggle('visible',scrollY>600);
+    });
+    document.querySelectorAll('.nav-link').forEach(a=>a.addEventListener('click',e=>{
+      e.preventDefault();const t=document.querySelector(a.getAttribute('href'));
+      if(t)t.scrollIntoView({behavior:'smooth'});
+      document.getElementById('navMenu').classList.remove('open');
+      document.getElementById('burger').classList.remove('active');
+    }));
+    document.getElementById('burger').addEventListener('click',()=>{
+      document.getElementById('navMenu').classList.toggle('open');
+      document.getElementById('burger').classList.toggle('active');
+    });
+
+    // ===== CAROUSEL DRAG =====
+    const car=document.getElementById('carousel');
+    let isDown=false,startX,scrollL;
+    car.addEventListener('mousedown',e=>{isDown=true;startX=e.pageX-car.offsetLeft;scrollL=car.scrollLeft;car.style.cursor='grabbing'});
+    car.addEventListener('mouseleave',()=>{isDown=false;car.style.cursor='grab'});
+    car.addEventListener('mouseup',()=>{isDown=false;car.style.cursor='grab'});
+    car.addEventListener('mousemove',e=>{if(!isDown)return;e.preventDefault();car.scrollLeft=scrollL-(e.pageX-car.offsetLeft-startX)*1.5});
+
+    // ===== LIGHTBOX =====
+    function openLB(el){
+      document.getElementById('lbImg').src=el.querySelector('img').src;
+      document.getElementById('lb').classList.add('open');
+    }
+    function closeLB(){document.getElementById('lb').classList.remove('open')}
+  </script>
+
+</body>
+</html>
